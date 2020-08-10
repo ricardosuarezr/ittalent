@@ -125,6 +125,14 @@ h2 {
       background-color: #CDE8FF;
 
 }
+#servicios2 {
+      overflow-y: scroll;
+
+}
+#servicios2 .card:hover {
+      background-color: #CDE8FF;
+
+}
 
 .col-12 {
   height: 400px;
