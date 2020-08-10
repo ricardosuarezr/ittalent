@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #0f4c81 ;
+  background: linear-gradient(to right, #0f4c81 , #33AEFF);
+font-family: console, century gothic;
+}
+
+header {
+  position: relative;
+  background-color: #0f4c81 ;
+  height: 600px;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: midnightblue;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('video/videoslider.mp4') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+
+.galleria {
+  width: 100%;
+  height: 720px;
+  background: #000;
+    border-radius: 10px;
+}
+
+.galleria p {
+    font-family: console, century gothic;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 35px;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px black;
+    color: aliceblue;
+}
+h2 {
+    font-family: console, century gothic;
+    font-size: 70px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 2px 2px white;
+    color: #0f4c81;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#sobremi1 {
+    border-radius: 25px;
+}
+#sobremi2 {
+    border-radius: 25px;
+}
+.col-lg-6  {
+  height: 400px;
+}
+
+#servicios {
+      overflow-y: scroll;
+
+}
+#servicios .card:hover {
+      background-color: #CDE8FF;
+
+}
+
+.col-12 {
+  height: 400px;
+}
+
+
+h4.candidato {
+  position: sticky;
+  top: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+    text-align: center;
+    color:#0f4c81;
+    font-weight: bolder;
+    
+}
+h4.empresa {
+  position: relative;
+  top: 0;
+  background-color: transparent;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+font-weight: bolder;
+    text-align: center;
+    color: white;
+    
+}
+
+.servicios .card {
+    border-radius: 25px;}
+
+.servicios
+{    margin-top: 1rem;
+}
+
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (max-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+.nav-item:hover {
+    background-color: #CDE8FF;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: midnightblue;
+}
+.navbar-toggler:hover {
+    background-color: #CDE8FF;
+}
+#footer {
+    background-color: rgba(15, 76, 129, 0.3);
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+#footer:hover {
+    background-color: rgba(255, 255, 255, 0.8) 
+}
