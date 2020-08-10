@@ -93,8 +93,11 @@ header .overlay {
     font-weight: 700;
     text-shadow: 5px 5px 10px black;
     color: aliceblue;
+    background-color: rgba(15, 76, 129, 0.9);
+    width: 100%;
+
 }
-h2 {
+.galleria h2 {
     font-family: console, century gothic;
     font-size: 70px;
     position: absolute;
@@ -106,6 +109,8 @@ h2 {
     color: #0f4c81;
     text-transform: uppercase;
     font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
 }
 #sobremi1 {
     border-radius: 25px;
